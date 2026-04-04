@@ -8,10 +8,6 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.test {
-    background-color: aquamarine;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -27,6 +23,17 @@ body {
     height: 70px;
     display: flex;
     align-items: center;
+}
+
+.logo {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: var(--bgtan);
+    transition: 0.3s ease;
 }
 
 ul {
@@ -57,6 +64,28 @@ ul {
 h1 {
     font-size: 2.5rem;
     margin: 5px 0;
+}
+
+/* HOME PAGE */
+.hero {
+    height: 70vh;
+    background-color: var(--white);
+}
+
+.hero-text {
+    width: 50%;
+    padding: 0 16px;
+}
+
+.welcome {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--red);
+}
+
+.tagline {
+    font-size: 4rem;
+    margin: 0;
 }
 
 /* MENU LAYOUT*/
