@@ -1,0 +1,13 @@
+<%- include('partials/head.ejs') %>
+<%- include('partials/navbar.ejs') %>
+<body>
+    <h1>THIS IS THE RANDOM PAGE</h1>
+    <% console.log(menuLength) %>
+    <% console.log(`randCategory: ${randCategory}`) %>
+    <% console.log(`category: ${category}`) %>
+    <% console.log(category[randCategory]) %>
+    <% console.log(typeof(category[randCategory])); %>
+    <% console.log(randItems[0]) %>
+    <%- include('partials/menuItem.ejs', {item: randItems[Math.floor(Math.random() * randItems.length)]}); %>
+    
+<%- include('partials/footer.ejs') %>

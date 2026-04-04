@@ -1,0 +1,157 @@
+* {
+    --bgtan: #fff7e7;
+    --bgblue: #4a476f;
+    --white: #ffffff;
+    --red: #EB131B;
+    --darkred: #8A0000;
+    --black: #000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.test {
+    background-color: aquamarine;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bgtan);
+}
+
+.navbar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 8px;
+    background-color: var(--red);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0;
+    
+}
+
+.nav-link {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--bgtan);
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+
+/* HEADING */
+h1 {
+    font-size: 2.5rem;
+    margin: 5px 0;
+}
+
+/* MENU LAYOUT*/
+
+/* section {
+    background-color: var(--bgblue);
+    height: 75vh;
+    margin: 20px;
+    border-radius: 20px;
+} */
+
+.menu-container {
+    margin: 0 20px;
+}
+
+.menu-section {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: var(--darkred);
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+/* MENU ITEMS */
+
+.menu-item-card {
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.menu-item-name {
+    color: var(--darkred);
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.menu-item-desc {
+    color: var(--black);
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+.menu-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: 
+}
+
+.menu-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid var(--red);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.details {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.details:hover {
+    background-color: var(--darkred);
+    border: 2px solid var(--darkred);
+    transition: 0.3s ease;
+}
+
+.order {
+    background-color: var(--white);
+    color: var(--red);
+}
+
+.order:hover {
+    color: var(--darkred);
+    border: 2px solid var(--darkred);
+    transition: 0.3s ease;
+}

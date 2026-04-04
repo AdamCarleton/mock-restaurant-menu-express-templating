@@ -1,0 +1,40 @@
+<%- include('partials/head.ejs'); %>
+<%- include('partials/navbar.ejs') %>
+
+<div class="menu-container">
+    <h1>Menu</h1>
+
+    <!-- BURGERS -->
+    <section>
+        <h2 class="menu-section">Burgers</h2>
+        <div class="menu-grid">
+            <% for(item of menu.burgers) { %>
+                <%- include('partials/menuItem.ejs', { item: item }) %>
+            <% } %>
+        </div>
+    </section>
+
+    <!-- SIDES -->
+    <section>
+        <h2 class="menu-section">Sides</h2>
+        <div class="menu-grid">
+            <% for(item of menu.sides) { %>
+                <%- include('partials/menuItem.ejs', { item: item }) %>
+            <% } %>
+        </div>
+    </section>
+
+    <!-- DESSERT -->
+     <section>
+        <h2 class="menu-section">Dessert</h2>
+        <div class="menu-grid">
+            <% for(item of menu.desserts) { %>
+                <%- include('partials/menuItem.ejs', { item: item }) %>
+            <% } %>
+        </div>
+    </section>
+</div>
+
+
+
+<%- include('partials/footer.ejs') %>
