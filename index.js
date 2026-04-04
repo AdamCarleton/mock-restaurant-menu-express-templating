@@ -18,13 +18,12 @@ app.get('/menu', (req, res) => {
     res.render('menu.ejs', { menu: menuData });
 })
 
-app.get('menu/:menuItem', (req, res) => {
-    const item = req.params.menuItem;
-    res.render(`menu/${item}`)
-})
+// app.get('menu/:menuItem', (req, res) => {
+//     const item = req.params.menuItem;
+//     res.render(`menu/${item}`)
+// })
 
 app.get('/random', (req, res) => {
-    
     const menuLength = Object.keys(menuData).length;
     const randCategory = Math.floor(Math.random() * menuLength);
     const category = Object.values(menuData);
