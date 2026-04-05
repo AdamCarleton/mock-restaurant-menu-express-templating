@@ -18,44 +18,60 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    padding-left: 8px;
     background-color: var(--red);
     height: 70px;
     display: flex;
     align-items: center;
 }
 
-.logo {
-    color: var(--white);
-    font-size: 2rem;
+ul > li:hover {
+    background-color: var(--bgtan);
+    transition: ease 0.3s;
+    cursor: pointer;
 }
 
-.logo:hover {
-    cursor: pointer;
-    color: var(--bgtan);
-    transition: 0.3s ease;
+.logo {
+    height: 100%;
+    color: var(--white);
+    font-size: 3rem;
+    padding: 0 10px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    margin-right: 0;
-    
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    height: 100%;
+    padding: 0 50px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    /* display: block; */
+    text-align: center;
 }
 
 .nav-link {
+    height: 100%;
+    width: 100%;
     list-style-type: none;
-    padding: 0;
+    display: flex;
+    align-items: center;
     margin: 0;
-    margin-right: 100px;
-    margin-left: 10px;
+    /* margin-right: 100px; */
     font-size: 1.5rem;
     color: white;
-    text-decoration: none;
 }
 
 .nav-link:hover {
-    color: var(--bgtan);
+    color: var(--red);
+    /* background-color: var(--bgtan); */
     transition: ease-in 0.3s;
     cursor: pointer;
 }
@@ -69,16 +85,23 @@ h1 {
 /* HOME PAGE */
 .hero {
     height: 70vh;
-    background-color: var(--white);
+    background-color: var(--bgtan);
+    display: flex;
+    align-items: center;
 }
 
 .hero-text {
-    width: 50%;
-    padding: 0 16px;
+    width: 35%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
 }
 
 .welcome {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: var(--red);
 }
@@ -86,6 +109,13 @@ h1 {
 .tagline {
     font-size: 4rem;
     margin: 0;
+}
+
+.hero-img {
+    padding-left: 5%;
+    margin: 20%;
+    width: 800px;
+    height: 600px;
 }
 
 /* MENU LAYOUT*/
