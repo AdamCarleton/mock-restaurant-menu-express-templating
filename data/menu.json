@@ -1,82 +1,114 @@
 {
   "burgers": [
     {   "name": "Backyard BBQ Pork Burger",
-        "img": "imgs/backyard-bbq-pork-burger.jpg",
-        "description": "Served with your choice of side. Hickory-smoked pulled pork, smoky bacon, crispy onion straws, cheddar,..."
+        "slug": "backyard-bbq-pork-burger",
+        "img": "/imgs/backyard-bbq-pork-burger.jpg",
+        "description": "Served with your choice of side. Hickory-smoked pulled pork, smoky bacon, crispy onion straws, cheddar,...",
+        "fullDescription": "this is the full description"
     },
     {
         "name": "Cowboy Ranch Double",
+        "slug": "cowboy-ranch-double",
         "img": "/imgs/cowboy-ranch-double.jpg",
-        "description": "Served with your choice of side. Whiskey River® BBQ sauce, American cheese, smoky bacon, lettuce, tomato, onion and..."
+        "description": "Served with your choice of side. Whiskey River® BBQ sauce, American cheese, smoky bacon, lettuce, tomato, onion and...",
+        "fullDescription": ""
     },
     {
         "name": "Haystack Double",
+        "slug": "haystack-double",
         "img": "/imgs/haystack-double.jpg",
-        "description": "Served with your choice of side. American cheese, crispy onion straws and Campfire Mayo on a sesame seed bun."
+        "description": "Served with your choice of side. American cheese, crispy onion straws and Campfire Mayo on a sesame seed bun.",
+        "fullDescription": ""
     },
     {
         "name": "Whiskey River® BBQ",
-        "img": "imgs/whiskey-river-bbq.jpg",
-        "description": "Served with your choice of side. Crispy onion straws, cheddar, Whiskey River® BBQ sauce, lettuce, tomato and mayo on a…"
+        "slug": "whiskey-river-bbq",
+        "img": "/imgs/whiskey-river-bbq.jpg",
+        "description": "Served with your choice of side. Crispy onion straws, cheddar, Whiskey River® BBQ sauce, lettuce, tomato and mayo on a…",
+        "fullDescription": ""
     },
     {
         "name": "Bacon Cheeseburger",
-        "img": "imgs/bacon-cheeseburger.jpg",
-        "description": "Served with your choice of side. Smoky bacon, your choice of cheese, lettuce, tomato and mayo on a brioche bun."
+        "slug": "bacon-cheeseburger",
+        "img": "/imgs/bacon-cheeseburger.jpg",
+        "description": "Served with your choice of side. Smoky bacon, your choice of cheese, lettuce, tomato and mayo on a brioche bun.",
+        "fullDescription": ""
     },
     {
         "name": "Smashed Avocodo 'N Bacon",
-        "img": "imgs/smashed-avocado-n-bacon.jpg",
-        "description": "Served with your choice of side. Smoky bacon, Swiss, smashed avocado, lettuce, tomato, onion and mayo on a brioche bun.…"
+        "slug": "smashed-avocado-n-bacon",
+        "img": "/imgs/smashed-avocado-n-bacon.jpg",
+        "description": "Served with your choice of side. Smoky bacon, Swiss, smashed avocado, lettuce, tomato, onion and mayo on a brioche bun.…",
+        "fullDescription": ""
     },
     {
         "name": "Red Robin Gourmet Cheeseburger",
-        "img": "imgs/red-robin-gourmet-cheeseburger.jpg",
-        "description": "Served with your choice of side. Your choice of cheese, pickle relish, pickles, onion, lettuce, tomato and mayo on a…"
+        "slug": "red-robin-gorumet-cheeseburger",
+        "img": "/imgs/red-robin-gourmet-cheeseburger.jpg",
+        "description": "Served with your choice of side. Your choice of cheese, pickle relish, pickles, onion, lettuce, tomato and mayo on a…",
+        "fullDescription": ""
     },
     {
-        "name": "Bavcon 'N' Bleu",
-        "img": "imgs/bacon-n-bleu.jpg",
-        "description": "Served with your choice of side. Smoky bacon, crumbled bleu cheese, caramelized onions, Monterey Jack and ranch on a…"
+        "name": "Bacon 'N' Bleu",
+        "slug": "bacon-n-bleu",
+        "img": "/imgs/bacon-n-bleu.jpg",
+        "description": "Served with your choice of side. Smoky bacon, crumbled bleu cheese, caramelized onions, Monterey Jack and ranch on a…",
+        "fullDescription": ""
     },
     {
         "name": "Banzai",
-        "img": "imgs/banzai.jpg",
-        "description": "Served with your choice of side. Teriyaki-glazed beef patty, fresh grilled pineapple, cheddar, lettuce, tomato and mayo…"
+        "slug": "banzai",
+        "img": "/imgs/banzai.jpg",
+        "description": "Served with your choice of side. Teriyaki-glazed beef patty, fresh grilled pineapple, cheddar, lettuce, tomato and mayo…",
+        "fullDescription": ""
     }
   ],
   "sides": [
     {   "name": "Steak Fries",
-        "img": "imgs/french-fries.jpg",
-        "description": "Thick cut and fried to perfection with Red's Original seasoning." 
+        "slug": "steak-fries",
+        "img": "/imgs/french-fries.jpg",
+        "description": "Thick cut and fried to perfection with Red's Original seasoning.",
+        "fullDescription": ""
     },
     {   "name": "Garlic Fries",
-        "img": "imgs/garlic-fries.jpg",
-        "description": "Thick cut and fried to perfection with garlic Parmesan butter, Parmesan cheese and parsley flakes." 
+        "slug": "garlic-fries",
+        "img": "/imgs/garlic-fries.jpg",
+        "description": "Thick cut and fried to perfection with garlic Parmesan butter, Parmesan cheese and parsley flakes.",
+        "fullDescription": ""
     },
     {   "name": "Sweet Potato Fries",
-        "img": "imgs/sweet-potato-fries.jpg",
-        "description": "Thin cut sweet potatoes fried to perfection with a dash of salt." 
+        "slug": "sweet-potato-fries",
+        "img": "/imgs/sweet-potato-fries.jpg",
+        "description": "Thin cut sweet potatoes fried to perfection with a dash of salt.",
+        "fullDescription": ""
     },
     {   "name": "Hosue Salad",
-        "img": "imgs/house-salad.jpg",
-        "description": "Diced tomato, English cucumber, shredded cheddar cheese and croutons on mixed greens with choice of dressing. Does not…" 
+        "slug": "house-salad",
+        "img": "/imgs/house-salad.jpg",
+        "description": "Diced tomato, English cucumber, shredded cheddar cheese and croutons on mixed greens with choice of dressing. Does not…",
+        "fullDescription": ""
     },
     {   "name": "Caesar Salad",
-        "img": "imgs/caesar-salad.jpg",
-        "description": "A smaller serving of crisp romaine tossed in house-made Everything Caesar dressing. Topped with shaved Parmesan…" 
+        "slug": "caesar-salad",
+        "img": "/imgs/caesar-salad.jpg",
+        "description": "A smaller serving of crisp romaine tossed in house-made Everything Caesar dressing. Topped with shaved Parmesan…",
+        "fullDescription": ""
     }
   ],
   "desserts": [
     {   
         "name": "Fudge-Filled Chocolate Chip Cookie",
-        "img": "imgs/chocolate-chip-cookie.jpg",
-        "description": "One or five Five soft chocolate chip cookies with a fudgy center. Calories per cookie."
+        "slug": "fudge-filled-chocolate-chip-cookie",
+        "img": "/imgs/chocolate-chip-cookie.jpg",
+        "description": "One or five Five soft chocolate chip cookies with a fudgy center. Calories per cookie.",
+        "fullDescription": ""
     },
     {
         "name": "Lemon Cream Layer Cake",
-        "img": "imgs/lemon-cream-cake.jpg",
-        "description": "Lemon cake with lemon curd and cream cheese frosting, served on strawberry purée with whipped cream."
+        "slug": "lemon-cream-layer-cake",
+        "img": "/imgs/lemon-cream-cake.jpg",
+        "description": "Lemon cake with lemon curd and cream cheese frosting, served on strawberry purée with whipped cream.",
+        "fullDescription": ""
     }
   ]
 }
