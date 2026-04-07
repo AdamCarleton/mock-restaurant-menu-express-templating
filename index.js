@@ -18,10 +18,13 @@ app.get('/menu', (req, res) => {
     res.render('menu.ejs', { menu: menuData });
 })
 
-// app.get('menu/:menuItem', (req, res) => {
-//     const item = req.params.menuItem;
-//     res.render(`menu/${item}`)
-// })
+app.get('/menu/:detail', (req, res) => {
+    res.render('detail.ejs', { menu: menuData });
+})
+
+app.get('/order', (req, res) => {
+    res.render('order.ejs');
+})
 
 app.get('/random', (req, res) => {
     const menuLength = Object.keys(menuData).length;
