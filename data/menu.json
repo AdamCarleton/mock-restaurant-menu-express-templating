@@ -4,63 +4,77 @@
         "slug": "backyard-bbq-pork-burger",
         "img": "/imgs/backyard-bbq-pork-burger.jpg",
         "description": "Served with your choice of side. Hickory-smoked pulled pork, smoky bacon, crispy onion straws, cheddar,...",
-        "fullDescription": "this is the full description"
+        "fullDescription": "Served with your choice of side. Hickory-smoked pulled pork, smoky bacon, crispy onion straws, cheddar, Whiskey River® BBQ sauce, pickles and mayo on a brioche bun."
     },
     {
         "name": "Cowboy Ranch Double",
         "slug": "cowboy-ranch-double",
         "img": "/imgs/cowboy-ranch-double.jpg",
         "description": "Served with your choice of side. Whiskey River® BBQ sauce, American cheese, smoky bacon, lettuce, tomato, onion and...",
-        "fullDescription": ""
+        "fullDescription": "Served with your choice of side. Whiskey River® BBQ sauce, American cheese, smoky bacon, lettuce, tomato, onion and ranch on a sesame seed bun."
     },
     {
         "name": "Haystack Double",
         "slug": "haystack-double",
         "img": "/imgs/haystack-double.jpg",
         "description": "Served with your choice of side. American cheese, crispy onion straws and Campfire Mayo on a sesame seed bun.",
-        "fullDescription": ""
+        "fullDescription": "The Haystack Double Tavern Burger at Red Robin is a serious flavor bomb built for burger lovers who don’t mess around. We’re talking two juicy, fire-grilled patties stacked up with gooey American cheese, then topped with a heap of crispy onion straws for that perfect crunch. Add a generous slather of our smoky-sweet Campfire Mayo, and boom—you’ve got a burger that brings bold flavor in every bite. And because no burger should fly solo, it’s served with your choice of side. Go for the legendary Bottomless Steak Fries, the Everything Caesar Salad, or our crunchy Yukon Chips. This burger doesn’t just satisfy—it makes your day.",
+        "fullDescription2": "At Red Robin, the flavor doesn’t stop with the food—our beverages are Bottomless too! That means unlimited refills of your favorite drinks to keep the good vibes going. Pair your Haystack Double Tavern Burger with an ice-cold Coca-Cola®, a refreshing Very Berry Raspberry Limeade, or a sweet and zesty Freckled Lemonade®. Craving something classic? Our Bottomless Barq's® Root Beer hits the spot every time. Whether you’re here for lunch, dinner, or just catching up with friends, you can sip, savor, and refill as much as you like. It’s just another way we make sure your Red Robin experience is packed with value, fun, and YUMMM® from start to finish.",
+        "tagline": "Stacked High, Packed With Flavor: Meet the Haystack Double Tavern Burger"
     },
     {
         "name": "Whiskey River® BBQ",
         "slug": "whiskey-river-bbq",
         "img": "/imgs/whiskey-river-bbq.jpg",
         "description": "Served with your choice of side. Crispy onion straws, cheddar, Whiskey River® BBQ sauce, lettuce, tomato and mayo on a…",
-        "fullDescription": ""
+        "fullDescription": "With over 25 delicious Gourmet Burgers to choose from at Red Robin, it can be a little difficult to decide which one to choose. If you're looking for something that's packed full of savory flavor with a splash of mouth-watering tang, the Whiskey River® BBQ is your perfect choice. There's a reason this burger is one of our fan faves, with a hot and juicy patty on a fluffy bun and loaded with crispy onion straws, lettuce, tomato, mayo and topped with a generous pour of our famous Whiskey River® BBQ sauce. Pro tip: ask for some extra sauce on the side to dip your Bottomless Steak Fries® into!",
+        "fullDescription2": "While we believe our Whiskey River® BBQ is perfect as it is, we also love it when our loyal fans shake things up and try different combos. We encourage you to customize your burger and enjoy your favorite flavors! For an extra smoky flavor, why not swap your mayo for Campfire Mayo, add some hardwood-smoked bacon or nix the melty cheddar for the cheddar and parmesan crisp for an extra burst of YUMMM®! Your local Red Robin is open every day for lunch or dinner and can't wait to share the thick and juicy Whiskey River® BBQ with you!",
+        "tagline": "All Aboard the Whiskey River® BBQ Gourmet Burger Train"
     },
     {
         "name": "Bacon Cheeseburger",
         "slug": "bacon-cheeseburger",
         "img": "/imgs/bacon-cheeseburger.jpg",
         "description": "Served with your choice of side. Smoky bacon, your choice of cheese, lettuce, tomato and mayo on a brioche bun.",
-        "fullDescription": ""
+        "fullDescription": "At Red Robin, we know there are times when you crave something simple, something classic. Sometimes you don't need the exotic flavors and mile-high toppings. What you want is the straightforward taste of our Bacon Cheeseburger. As one of our mouth-watering Gourmet Burgers, the Bacon Cheeseburger is loaded with taste. We start with a hot and juicy beef patty on a fluffy bun, add crispy hardwood-smoked bacon, lettuce, tomato and mayo as well as your choice of cheese. Don't take this decision lightly – the cheese is what really makes this burger yours. You can go classic with American or Cheddar, add a little kick with Pepper Jack or opt for the savory flavor of Swiss. Or you can take that left turn at Albuquerque and go with something completely different but just as tasty: tangy Bleu Cheese crumbles.",
+        "fullDescription2": "Our Bacon Cheeseburger is one of our more popular Gourmet Burgers for a reason so stop by your local Red Robin today for lunch or dinner. As usual, it's served with a generous portion of our Bottomless Steak Fries® or you can choose something different from our Bottomless Side menu. We love variety here and encourage you to try new things, which is why if you'd like to swap out the mayo on the Bacon Cheeseburger for our smoky Campfire Mayo or heat things up with our Scorpion Sauce, we think it's a great idea. Stop by today and try the delicious classic flavor of our Bacon Cheeseburger!",
+        "tagline": "Keep It Classic With Our Bacon Cheeseburger"
     },
     {
         "name": "Smashed Avocodo 'N Bacon",
         "slug": "smashed-avocado-n-bacon",
         "img": "/imgs/smashed-avocado-n-bacon.jpg",
         "description": "Served with your choice of side. Smoky bacon, Swiss, smashed avocado, lettuce, tomato, onion and mayo on a brioche bun.…",
-        "fullDescription": ""
+        "fullDescription": "Looking for a burger that combines healthy living and hearty taste? Look no further than Red Robin's Smashed Avocado 'N Bacon. It's the perfect combination of all the tastes you love, including hardwood-smoked bacon, gooey melted Swiss cheese, onion, lettuce and tomato. What puts it over the top is the California cool of freshly-smashed avocado. Just when you thought burgers couldn't get any better, we've gone and proved you wrong! The sweet, nutty flavor of avocado takes this taste sensation to the next level for an experience you just can't resist.",
+        "fullDescription2": "Don't settle for just any old burger when you can enjoy this ultimate taste of California. There's a reason why avocados are so popular. What's not to love about the creamy texture and rich flavor of this versatile fruit? Not to mention the many health benefits. It's the perfect way to satisfy your burger craving while still keeping an eye on good nutrition and it only gets better when it's paired with one of our tasty sides. At Red Robin, we're all about the YUMMM® which is why we offer a variety of delicious Gourmet Burgers and nothing says delicious quite like our Smashed Avocado 'N Bacon. So if you're looking for the perfect way to kick back and chill, this is the burger for you.",
+        "tagline": "Bite Into the Flavor of Red Robin's Smashed Avocado 'N Bacon"
     },
     {
         "name": "Red Robin Gourmet Cheeseburger",
         "slug": "red-robin-gorumet-cheeseburger",
         "img": "/imgs/red-robin-gourmet-cheeseburger.jpg",
         "description": "Served with your choice of side. Your choice of cheese, pickle relish, pickles, onion, lettuce, tomato and mayo on a…",
-        "fullDescription": ""
+        "fullDescription": "Classics are classics for a reason and there's no denying the delicious taste of the Red Robin Gourmet Cheeseburger. We start with a hot and juicy beef patty cooked just how you like it on a fluffy bun then piled high with all the goodies: pickle relish, onions, lettuce, tomato, pickles and mayo with your choice of cheese. You can stick to the classics and choose from American or Cheddar, try some melty Swiss, spice things up with Pepper Jack or go outside the box and try Bleu Cheese Crumbles. As always, the Red Robin Gourmet Cheeseburger comes with a generous side of Bottomless Steak Fries® for added YUMMM®!",
+        "fullDescription2": "At Red Robin, we're all about letting you lead the way and we celebrate your choices as you customize your Gourmet Burger your way. The Red Robin Gourmet Cheeseburger is amazing with Campfire Mayo as a spread! Or, why not add hardwood-smoked bacon, crispy onion straws or sweet jalapeño relish for an extra burst of flavor? If you're watching your diet, we offer lettuce wraps or gluten-free buns as an option. Your local Red Robin is open every day for lunch or dinner so stop by today and try the extraordinary Red Robin Gourmet Cheeseburger!",
+        "tagline": "Dive Into Flavor With the Red Robin Gourmet Cheeseburger"
     },
     {
         "name": "Bacon 'N' Bleu",
         "slug": "bacon-n-bleu",
         "img": "/imgs/bacon-n-bleu.jpg",
         "description": "Served with your choice of side. Smoky bacon, crumbled bleu cheese, caramelized onions, Monterey Jack and ranch on a…",
-        "fullDescription": ""
+        "fullDescription": "Sink your teeth into the Bacon ‘N’ Bleu Burger at Red Robin, a bold burger that’s anything but shy. This flavorful, indulgent creation starts with a perfectly toasted black and white sesame bun, stacked high with juicy goodness. Think hardwood-smoked bacon that crunches with every bite, melted Monterey Jack cheese, and tangy Bleu cheese crumbles that add that punch of steakhouse flair. Sweet, caramelized onions mingle with house-made ranch dressing, creating a creamy, savory symphony that dances on your taste buds. Every layer is loaded with flavor, making this burger a true masterpiece of indulgence. If you’re ready to treat yourself, the Bacon ‘N’ Bleu Burger is a bold, flavorful adventure you won’t want to share… unless you absolutely have to. Red Robin proves that a burger can be both classic and daring, all in one mouthwatering bite.",
+        "fullDescription2": "Ready to take your Bacon ‘N’ Bleu Burger experience to the next level? Pair it with our iconic Bottomless Steak Fries® for the ultimate indulgence. Wash it all down with a Bottomless Beverage like an ice-cold Coca-Cola® or a tart and sweet Mango Passion Lemonade to keep every bite perfectly balanced. The smoky bacon, creamy Bleu cheese, and caramelized onions play off the salty, crunchy fries and refreshing sips for a flavor combo that’s hard to beat. Stop by Red Robin today and treat yourself to this bold, delicious feast—you deserve it!",
+        "tagline": "Our Bacon 'N' Bleu Burger Will Bleu You Away"
     },
     {
         "name": "Banzai",
         "slug": "banzai",
         "img": "/imgs/banzai.jpg",
         "description": "Served with your choice of side. Teriyaki-glazed beef patty, fresh grilled pineapple, cheddar, lettuce, tomato and mayo…",
-        "fullDescription": ""
+        "fullDescription": "Out of all of our thick and juicy Gourmet Burgers Red Robin offers, a select few are named Fan Faves. The Banzai is one of those and for good reason; it's the perfect blend of tangy and sweet, weaving exotic flavors together in a delicious tapestry for your belly. We start with a thick, teriyaki-glazed beef patty cooked to your specifications. Then we top it with a slice of freshly-grilled pineapple, melty Cheddar, lettuce, tomato and mayo. To increase the YUMMM® factor, the Banzai comes with a generous side of our Bottomless Steak Fries®!",
+        "fullDescription2": "It's no wonder our loyal fans are so passionate about the Banzai, but we also appreciate your unique tastes and encourage you to put your spin on our creations. We love seeing how you make them your own! Add our sweet and spicy Island Heat Sauce for an extra kick or pile on Fried Jalapeño Coins. Step outside the box and add avocado, caramelized onions or a fried egg. We can even make the Banzai a lettuce wrap or place it on gluten-free buns if you have specific dietary requirements. Stop by your local Red Robin today for the perfect mix of sweet and tangy with our popular Banzai!",
+        "tagline": "Experience the Sweet & Tangy Banzai at Red Robin"
     }
   ],
   "sides": [
