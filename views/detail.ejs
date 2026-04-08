@@ -1,8 +1,27 @@
 <%- include ('partials/head.ejs') %>
 <%- include ('partials/navbar.ejs') %>
 
-<h1>THIS IS THE DETAILS PAGE</h1>
-<% console.log("NEW REFRESH") %>
-<% console.log(menu.burgers[0].name); %>
+<div class="detail-container">
+    <div class="detail-text">
+    <h1 class="detail-h1"><%= item.name %></h1>
+    <p class="detail-p"><%= item.description %></p>
+    
+    
+    </div>
+    <div class="detail-img">
+        <img src="<%= item.img%>" alt="">
+    </div>
+</div>
+<div class="description-container">
+    <% if(item.tagline)  { %>
+        <h2 class="tagline"><%= item.tagline %></h2>
+    <% } %>
+    <% if (item.fullDescription) { %>
+        <p class="description-text"><%= item.fullDescription %></p>
+    <% } %>
+    <% if (item.fullDescription2) { %>
+        <p class="description-text"><%= item.fullDescription2 %></p>
+    <% } %>
+</div>
 
 <%-include ('partials/footer.ejs') %>

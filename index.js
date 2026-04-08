@@ -18,8 +18,12 @@ app.get('/menu', (req, res) => {
     res.render('menu.ejs', { menu: menuData });
 })
 
-app.get('/menu/:detail', (req, res) => {
-    res.render('detail.ejs', { menu: menuData });
+app.get('/menu/:slug', (req, res) => {
+    const slug = req.params.slug;
+    // flatten array of items so you don't have to worry about which category the items are in
+    const allItems = Object.values(menuData).flat();
+    const item = allItems.find(item => item.slug === slug);
+    res.render('detail.ejs', { item });
 })
 
 app.get('/order', (req, res) => {

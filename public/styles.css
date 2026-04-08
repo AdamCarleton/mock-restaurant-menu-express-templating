@@ -11,7 +11,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--bgtan);
+    background-color: var(--white);
 }
 
 .navbar {
@@ -22,10 +22,13 @@ body {
     height: 70px;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 ul > li:hover {
-    background-color: var(--bgtan);
+    background-color: var(--white);
     transition: ease 0.3s;
     cursor: pointer;
 }
@@ -85,7 +88,7 @@ h1 {
 /* HOME PAGE */
 .hero {
     height: 70vh;
-    background-color: var(--bgtan);
+    background-color: var(--white);
     display: flex;
     align-items: center;
 }
@@ -212,4 +215,49 @@ h1 {
     color: var(--darkred);
     border: 2px solid var(--darkred);
     transition: 0.3s ease;
+}
+
+
+/* ITEM DETAIL PAGE STYLES */
+
+.detail-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detail-text {
+    width: 40%;
+    height: 100vh - 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.detail-h1 {
+    color: var(--red);
+    font-size: 3rem;
+}
+
+.detail-img {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.description-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 20%;
+}
+
+.tagline {
+    color: var(--darkred);
+    font-size: 2rem;
+    font-weight: bold;
 }
